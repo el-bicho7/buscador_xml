@@ -22,12 +22,12 @@ def xml_finder():
     #Que voy a buscar
         print("".ljust(80, "-"))
         print("Que buscas? (Solo XML)")
-        print("1. Nombre emisor\n"
-              "2. Nombre facturado\n"
-              "3. Descripcion\n"
-              "4. Fecha\n"
-              "5. Cantidad de pago\n"
-              "6. Metodo de pago")
+        print("\t1. Nombre emisor\n"
+              "\t2. Nombre facturado\n"
+              "\t3. Descripcion\n"
+              "\t4. Fecha\n"
+              "\t5. Cantidad de pago\n"
+              "\t6. Metodo de pago")
         buscar = int(input("Selecciona una opcion a buscar: \n"))   #selecciona opcion dentro las opciones
 
         if buscar == 1:
@@ -83,7 +83,7 @@ def xml_finder():
             break
 
 
-while True:                                       
+while True:
     print("Selecciona una opcion")                                  #Inicio del programa, selecciona un archivo
     print("1. Seleccionar archivo\n"
           "2. Salir")
